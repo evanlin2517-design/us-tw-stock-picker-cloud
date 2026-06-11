@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>美股影響台股選股系統</title>
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1>美股影響台股選股系統</h1>
+      <p>研究美股收盤後對台股 1 到 3 個交易日的延遲連動。</p>
+    </div>
+    <div class="header-actions">
+      <button id="runButton" class="primary-button" type="button">執行預測</button>
+      <button id="refreshValidationButton" class="secondary-button" type="button">更新實際股價／回填驗證</button>
+      <span id="runStatus" class="status-pill">準備就緒</span>
+    </div>
+  </header>
+
+  <nav class="top-nav" aria-label="主導覽">
+    <button class="nav-tab active" data-view="overview">總覽</button>
+    <button class="nav-tab" data-view="today">今日預測</button>
+    <button class="nav-tab" data-view="history">歷史預測</button>
+    <button class="nav-tab" data-view="validation">驗證結果</button>
+    <button class="nav-tab" data-view="runs">執行紀錄</button>
+    <button class="nav-tab" data-view="settings">設定</button>
+  </nav>
+
+  <main>
+    <section id="overview" class="view active">
+      <section class="toolbar-band">
+        <div><span class="label">最新任務</span><strong id="latestRunTime">尚無資料</strong></div>
+        <div><span class="label">美股資料日期</span><strong id="dataDate">尚無資料</strong></div>
+        <div><span class="label">目標台股交易日</span><strong id="targetDate">尚無資料</strong></div>
+        <div><span class="label">模型健康</span><strong id="healthText">尚無資料</strong></div>
+      </section>
+
+      <section class="market-board" aria-label="市場狀態">
+        <article class="market-card">
+          <div class="market-head">
+            <div>
+              <div class="market-title"><span id="twDot" class="status-dot"></span>台股 TWSE</div>
+              <p id="twLocalTime" class="market-time">台北時間 --:--:--</p>
+            </div>
+            <span id="twStatus" class="tag pending-tag">判斷中</span>
+          </div>
+          <div class="market-body">
+            <div class="market-box"><span>下一個事件</span><strong id="twNextEvent">--</strong></div>
+            <div class="market-box"><span>倒數</span><strong id="twCountdown" class="countdown">--:--:--</strong></div>
+          </div>
+          <p id="twHint" class="market-hint">台股交易時間 09:00 - 13:30 台北時間。</p>
+        </article>
+
+        <article class="market-card us">
+          <div class="market-head">
+            <div>
+              <div class="market-title"><span id="usDot" class="status-dot"></span>美股 NYSE / NASDAQ</div>
+              <p id="usLocalTime" class="market-time">美東時間 --:--:--</p>
+            </div>
+            <span id="usStatus" class="tag pending-tag">判斷中</span>
+          </div>
+          <div class="market-body">
+            <div class="market-box"><span>下一個事件</span><strong id="usNextEvent">--</strong></div>
+            <div class="market-box"><span>倒數</span><strong id="usCountdown" class="countdown">--:--:--</strong></div>
+          </div>
+          <p id="usHint" class="market-hint">美股使用 America/New_York 時區，自動處理夏令與冬令時間。</p>
+        </article>
+      </section>
+
+      <section class="metrics-grid">
+        <article class="metric"><span>近 5 日整體命中率</span><strong id="overallAccuracy">--</strong></article>
+        <article class="metric"><span>看漲命中率</span><strong id="bullishAccuracy">--</strong></article>
+        <article class="metric"><span>看跌命中率</span><strong id="bearishAccuracy">--</strong></article>
+        <article class="metric"><span>待驗證</span><strong id="pendingCount">0</strong></article>
+      </section>
+
+      <section class="content-grid">
+        <section class="panel">
+          <div class="panel-title">
+            <h2>今天先看這些</h2>
+            <span>首頁只放摘要，完整清單放在今日預測與歷史預測。</span>
+          </div>
+          <div id="topRecommendations" class="compact-list"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <h2>資料新鮮度</h2>
+            <span>確認模型使用的資料日期。</span>
+          </div>
+          <div id="freshnessList" class="definition-list"></div>
+        </section>
+      </section>
+    </section>
+
+    <section id="today" class="view">
+      <section class="panel">
+        <div class="panel-title">
+          <div>
+            <h2 id="todayTitle">今日預測</h2>
+            <span id="todaySubtitle">最新目標交易日的候選清單。</span>
+          </div>
+          <span id="todayState" class="tag pending-tag">等待資料</span>
+        </div>
+        <div class="segmented">
+          <button class="segment active" data-direction="all">全部</button>
+          <button class="segment" data-direction="看漲">看漲</button>
+          <button class="segment" data-direction="看跌">看跌</button>
+          <button class="segment" data-direction="多空混合">多空混合</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>台股</th>
+                <th>預測方向</th>
+                <th>信心</th>
+                <th>主要美股來源</th>
+                <th>影響基準</th>
+                <th>T+1 影響</th>
+                <th>T+2 影響</th>
+                <th>T+3 影響</th>
+                <th>開盤進場參考</th>
+                <th>正式判定</th>
+                <th>主要觸發條件</th>
+              </tr>
+            </thead>
+            <tbody id="todayRows"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <section id="history" class="view">
+      <section class="panel">
+        <div class="panel-title">
+          <div>
+            <h2>歷史預測</h2>
+            <span>每個交易日先看摘要，展開後看 T+1/T+2/T+3 驗證結果。</span>
+          </div>
+        </div>
+        <div id="historyAccordion" class="accordion"></div>
+      </section>
+    </section>
+
+    <section id="validation" class="view">
+      <section class="panel">
+        <div class="panel-title">
+          <div>
+            <h2>驗證結果</h2>
+            <span>整體研究視角，今日與歷史頁可看個股層級明細。</span>
+          </div>
+        </div>
+        <div id="validationSummary" class="validation-summary"></div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>目標日</th>
+                <th>台股</th>
+                <th>預測</th>
+                <th>影響基準</th>
+                <th>T+1 影響</th>
+                <th>T+2 影響</th>
+                <th>T+3 影響</th>
+                <th>開盤進場參考</th>
+                <th>判定</th>
+              </tr>
+            </thead>
+            <tbody id="validationRows"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <section id="runs" class="view">
+      <section class="panel">
+        <div class="panel-title">
+          <h2>執行紀錄</h2>
+          <span>最近 10 次任務；點擊可看完整明細。</span>
+        </div>
+        <div id="runRows" class="run-table"></div>
+      </section>
+    </section>
+
+    <section id="settings" class="view">
+      <section class="panel">
+        <div class="panel-title">
+          <div>
+            <h2>設定</h2>
+            <span>排程預設關閉；開啟後會在台北時間 07:30 自動執行。</span>
+          </div>
+        </div>
+        <div class="settings-row">
+          <div>
+            <strong>清晨自動排程</strong>
+            <p>手動確認穩定後再開啟，避免還在調整模型時自動重跑。</p>
+          </div>
+          <div class="settings-actions">
+            <span id="schedulerStatus" class="status-pill light">讀取中</span>
+            <button id="startSchedulerButton" class="secondary-button" type="button">啟動排程</button>
+            <button id="stopSchedulerButton" class="secondary-button danger" type="button">關閉排程</button>
+          </div>
+        </div>
+        <div class="settings-row">
+          <div>
+            <strong>本機 Web 服務</strong>
+            <p>若不再使用控制台，可在這裡關閉背景服務；也可以雙擊關閉選股系統.bat。</p>
+          </div>
+          <div class="settings-actions">
+            <button id="shutdownServerButton" class="secondary-button danger" type="button">關閉本機服務</button>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <aside id="detailDrawer" class="drawer" aria-hidden="true">
+    <div class="drawer-panel">
+      <button id="closeDrawerButton" class="icon-button" type="button" aria-label="關閉">×</button>
+      <h2 id="drawerTitle">執行明細</h2>
+      <div id="drawerContent"></div>
+    </div>
+  </aside>
+
+  <div id="floatingTooltip" class="floating-tooltip" role="tooltip"></div>
+
+  <script src="static/app.js"></script>
+</body>
+</html>
