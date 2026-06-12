@@ -1,7 +1,9 @@
 let dashboardData = null;
 let selectedDirection = "all";
 const HIT_RETURN = 0.005;
-const STATIC_MODE = !["localhost", "127.0.0.1"].includes(window.location.hostname);
+const LOCAL_BACKEND_MODE = ["localhost", "127.0.0.1"].includes(window.location.hostname)
+  || window.location.port === "8000";
+const STATIC_MODE = !LOCAL_BACKEND_MODE;
 
 const runButton = document.querySelector("#runButton");
 const refreshValidationButton = document.querySelector("#refreshValidationButton");
@@ -109,14 +111,12 @@ shutdownServerButton.addEventListener("click", async () => {
   runStatus.textContent = "正在關閉本機服務";
   try {
     await postJson("/api/server/shutdown");
-    document.body.innerHTML = `
-      <main class="shutdown-screen">
-        <section class="panel">
-          <div class="panel-title"><h2>本機服務已關閉</h2></div>
-          <div class="empty">若要再次使用，請雙擊「啟動選股系統.bat」。</div>
-        </section>
-      </main>`;
+    renderShutdownScreen();
   } catch (error) {
+    if (await serverLooksStopped()) {
+      renderShutdownScreen();
+      return;
+    }
     runStatus.textContent = "關閉失敗，請雙擊關閉選股系統.bat";
     console.error(error);
   }
@@ -157,6 +157,30 @@ async function postJson(url) {
   const response = await fetch(url, { method: "POST" });
   if (!response.ok) throw new Error(`API 錯誤：${response.status}`);
   return response.json();
+}
+
+async function serverLooksStopped() {
+  await new Promise((resolve) => setTimeout(resolve, 900));
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 800);
+  try {
+    await fetch("/api/health", { cache: "no-store", signal: controller.signal });
+    return false;
+  } catch (error) {
+    return true;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function renderShutdownScreen() {
+  document.body.innerHTML = `
+    <main class="shutdown-screen">
+      <section class="panel">
+        <div class="panel-title"><h2>本機服務已關閉</h2></div>
+        <div class="empty">若要再次使用，請雙擊「啟動選股系統.bat」。</div>
+      </section>
+    </main>`;
 }
 
 function renderDashboard(data) {
@@ -860,7 +884,19 @@ function formatDate(value) {
 
 function formatDateTime(value) {
   if (!value) return "尚無資料";
-  return String(value).replace("T", " ").slice(0, 19);
+  const text = String(value);
+  const date = new Date(/[zZ]|[+-]\d{2}:\d{2}$/.test(text) ? text : `${text}Z`);
+  if (Number.isNaN(date.getTime())) return text.replace("T", " ").slice(0, 19);
+  return new Intl.DateTimeFormat("zh-TW", {
+    timeZone: "Asia/Taipei",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
+  }).format(date);
 }
 
 function setText(selector, value) {
