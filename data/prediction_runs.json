@@ -1,5 +1,16 @@
 [
   {
+    "run_id": "20260626_114928_scheduled_7b4af1",
+    "trigger_type": "scheduled",
+    "status": "success",
+    "started_at": "2026-06-26T11:49:28.041492",
+    "finished_at": "2026-06-26T11:51:09.845290",
+    "us_data_date": "2026-06-25T00:00:00",
+    "target_tw_date": "2026-06-26T00:00:00",
+    "message": "完成 13 檔推薦、28 筆觸發訊號",
+    "recommendation_count": 13
+  },
+  {
     "run_id": "20260626_114023_backfill_71222a",
     "trigger_type": "backfill",
     "status": "success",
