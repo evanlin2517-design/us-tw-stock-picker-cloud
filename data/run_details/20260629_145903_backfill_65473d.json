@@ -1,0 +1,14 @@
+{
+  "run": {
+    "run_id": "20260629_145903_backfill_65473d",
+    "trigger_type": "backfill",
+    "status": "success",
+    "started_at": "2026-06-29T14:59:03.757646",
+    "finished_at": "2026-06-29T14:59:33.651850",
+    "us_data_date": null,
+    "target_tw_date": "2026-06-29T00:00:00",
+    "message": "完成收盤後回填，更新 384 筆驗證資料"
+  },
+  "predictions": [],
+  "signals": []
+}
