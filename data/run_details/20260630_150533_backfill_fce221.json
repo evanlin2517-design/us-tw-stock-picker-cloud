@@ -1,0 +1,14 @@
+{
+  "run": {
+    "run_id": "20260630_150533_backfill_fce221",
+    "trigger_type": "backfill",
+    "status": "success",
+    "started_at": "2026-06-30T15:05:33.836099",
+    "finished_at": "2026-06-30T15:06:04.555665",
+    "us_data_date": null,
+    "target_tw_date": "2026-06-30T00:00:00",
+    "message": "完成收盤後回填，更新 390 筆驗證資料"
+  },
+  "predictions": [],
+  "signals": []
+}
