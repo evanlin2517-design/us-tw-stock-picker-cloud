@@ -1,15 +1,26 @@
 {
   "latest_run": {
-    "run_id": "20260715_034843_scheduled_9e7218",
+    "run_id": "20260715_041607_scheduled_dbfa74",
     "trigger_type": "scheduled",
-    "status": "success",
-    "started_at": "2026-07-15T03:48:43.303260",
-    "finished_at": "2026-07-15T03:50:24.541628",
-    "us_data_date": "2026-07-14T00:00:00",
-    "target_tw_date": "2026-07-15T00:00:00",
-    "message": "完成 14 檔推薦、30 筆觸發訊號"
+    "status": "failed",
+    "started_at": "2026-07-15T04:16:07.130377",
+    "finished_at": "2026-07-15T04:17:19.576508",
+    "us_data_date": null,
+    "target_tw_date": null,
+    "message": "Invalid Input Error: Need a DataFrame with at least one column"
   },
   "recent_runs": [
+    {
+      "run_id": "20260715_041607_scheduled_dbfa74",
+      "trigger_type": "scheduled",
+      "status": "failed",
+      "started_at": "2026-07-15T04:16:07.130377",
+      "finished_at": "2026-07-15T04:17:19.576508",
+      "us_data_date": null,
+      "target_tw_date": null,
+      "message": "Invalid Input Error: Need a DataFrame with at least one column",
+      "recommendation_count": 0
+    },
     {
       "run_id": "20260715_034843_scheduled_9e7218",
       "trigger_type": "scheduled",
@@ -108,17 +119,6 @@
       "target_tw_date": "2026-07-14T00:00:00",
       "message": "完成收盤後回填，更新 360 筆驗證資料",
       "recommendation_count": 0
-    },
-    {
-      "run_id": "20260714_050955_scheduled_49633a",
-      "trigger_type": "scheduled",
-      "status": "success",
-      "started_at": "2026-07-14T05:09:55.115830",
-      "finished_at": "2026-07-14T05:11:38.809513",
-      "us_data_date": "2026-07-13T00:00:00",
-      "target_tw_date": "2026-07-14T00:00:00",
-      "message": "完成 5 檔推薦、9 筆觸發訊號",
-      "recommendation_count": 5
     }
   ],
   "summary": {
@@ -25119,8 +25119,8 @@
   },
   "health": {
     "level": "red",
-    "label": "近期命中率偏弱"
+    "label": "最近任務失敗"
   },
   "cloud_mode": true,
-  "cloud_generated_at": "2026-07-15T03:50:24"
+  "cloud_generated_at": "2026-07-15T04:17:19"
 }

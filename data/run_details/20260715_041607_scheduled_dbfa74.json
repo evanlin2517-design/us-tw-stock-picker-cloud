@@ -1,0 +1,14 @@
+{
+  "run": {
+    "run_id": "20260715_041607_scheduled_dbfa74",
+    "trigger_type": "scheduled",
+    "status": "failed",
+    "started_at": "2026-07-15T04:16:07.130377",
+    "finished_at": "2026-07-15T04:17:19.576508",
+    "us_data_date": null,
+    "target_tw_date": null,
+    "message": "Invalid Input Error: Need a DataFrame with at least one column"
+  },
+  "predictions": [],
+  "signals": []
+}
