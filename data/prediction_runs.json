@@ -1,5 +1,16 @@
 [
   {
+    "run_id": "20260715_051012_scheduled_70ca74",
+    "trigger_type": "scheduled",
+    "status": "failed",
+    "started_at": "2026-07-15T05:10:12.972090",
+    "finished_at": "2026-07-15T05:11:37.899314",
+    "us_data_date": null,
+    "target_tw_date": null,
+    "message": "Invalid Input Error: Need a DataFrame with at least one column",
+    "recommendation_count": 0
+  },
+  {
     "run_id": "20260715_041607_scheduled_dbfa74",
     "trigger_type": "scheduled",
     "status": "failed",
