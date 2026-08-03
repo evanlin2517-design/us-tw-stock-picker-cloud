@@ -1,5 +1,16 @@
 [
   {
+    "run_id": "20260803_055236_scheduled_a6814e",
+    "trigger_type": "scheduled",
+    "status": "success",
+    "started_at": "2026-08-03T05:52:36.101739",
+    "finished_at": "2026-08-03T05:54:01.387668",
+    "us_data_date": "2026-07-31T00:00:00",
+    "target_tw_date": "2026-08-03T00:00:00",
+    "message": "完成 10 檔推薦、18 筆觸發訊號",
+    "recommendation_count": 10
+  },
+  {
     "run_id": "20260803_044533_scheduled_2bf99b",
     "trigger_type": "scheduled",
     "status": "success",
@@ -2733,17 +2744,6 @@
     "status": "success",
     "started_at": "2026-07-01T13:18:56.232020",
     "finished_at": "2026-07-01T13:19:25.839440",
-    "us_data_date": null,
-    "target_tw_date": "2026-07-01T00:00:00",
-    "message": "完成收盤後回填，更新 405 筆驗證資料",
-    "recommendation_count": 0
-  },
-  {
-    "run_id": "20260701_122037_backfill_c85d80",
-    "trigger_type": "backfill",
-    "status": "success",
-    "started_at": "2026-07-01T12:20:37.892688",
-    "finished_at": "2026-07-01T12:20:55.896993",
     "us_data_date": null,
     "target_tw_date": "2026-07-01T00:00:00",
     "message": "完成收盤後回填，更新 405 筆驗證資料",
