@@ -1,13 +1,153 @@
 [
   {
     "trade_date": "2026-09-02T00:00:00",
+    "ticker": "2303.TW",
+    "open_price": 131.5,
+    "high_price": 133.0,
+    "low_price": 126.0,
+    "close_price": 126.0,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:21.919394"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "2308.TW",
+    "open_price": 1815.0,
+    "high_price": 1815.0,
+    "low_price": 1730.0,
+    "close_price": 1730.0,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:22.790210"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "2317.TW",
+    "open_price": 253.0,
+    "high_price": 255.0,
+    "low_price": 250.5,
+    "close_price": 251.0,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:24.081671"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "2330.TW",
+    "open_price": 2415.0,
+    "high_price": 2420.0,
+    "low_price": 2385.0,
+    "close_price": 2385.0,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:25.260543"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
     "ticker": "2356.TW",
     "open_price": 67.1,
     "high_price": 68.4,
     "low_price": 66.4,
     "close_price": 66.6,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:46.621708"
+    "updated_at": "2026-09-02T07:07:26.546067"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "2379.TW",
+    "open_price": 742.0,
+    "high_price": 774.0,
+    "low_price": 736.0,
+    "close_price": 744.0,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:29.128414"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "2382.TW",
+    "open_price": 338.0,
+    "high_price": 341.5,
+    "low_price": 336.0,
+    "close_price": 337.0,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:30.140892"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "2454.TW",
+    "open_price": 4450.0,
+    "high_price": 4565.0,
+    "low_price": 4230.0,
+    "close_price": 4275.0,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:31.154525"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "2881.TW",
+    "open_price": 144.5,
+    "high_price": 145.0,
+    "low_price": 142.5,
+    "close_price": 143.5,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:32.159207"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "2891.TW",
+    "open_price": 65.8,
+    "high_price": 66.7,
+    "low_price": 65.4,
+    "close_price": 66.6,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:33.035154"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "3008.TW",
+    "open_price": 7470.0,
+    "high_price": 7955.0,
+    "low_price": 7460.0,
+    "close_price": 7810.0,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:34.052897"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "3034.TW",
+    "open_price": 558.0,
+    "high_price": 563.0,
+    "low_price": 540.0,
+    "close_price": 543.0,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:35.193541"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "3231.TW",
+    "open_price": 184.0,
+    "high_price": 192.5,
+    "low_price": 183.0,
+    "close_price": 185.5,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:36.236639"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "3711.TW",
+    "open_price": 599.0,
+    "high_price": 607.0,
+    "low_price": 587.0,
+    "close_price": 589.0,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:37.109128"
+  },
+  {
+    "trade_date": "2026-09-02T00:00:00",
+    "ticker": "6669.TW",
+    "open_price": 2790.0,
+    "high_price": 2875.0,
+    "low_price": 2585.0,
+    "close_price": 2610.0,
+    "source": "TWSE",
+    "updated_at": "2026-09-02T07:07:38.121432"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -17,7 +157,7 @@
     "low_price": 127.0,
     "close_price": 132.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:40.510575"
+    "updated_at": "2026-09-02T07:07:21.917764"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -27,7 +167,7 @@
     "low_price": 1810.0,
     "close_price": 1865.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:42.023224"
+    "updated_at": "2026-09-02T07:07:22.788653"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -37,7 +177,7 @@
     "low_price": 251.0,
     "close_price": 256.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:43.569575"
+    "updated_at": "2026-09-02T07:07:24.080096"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -47,7 +187,7 @@
     "low_price": 2390.0,
     "close_price": 2440.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:45.136140"
+    "updated_at": "2026-09-02T07:07:25.258837"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -57,7 +197,7 @@
     "low_price": 66.2,
     "close_price": 66.6,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:46.620320"
+    "updated_at": "2026-09-02T07:07:26.544520"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -67,7 +207,7 @@
     "low_price": 723.0,
     "close_price": 744.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:48.000544"
+    "updated_at": "2026-09-02T07:07:29.126881"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -77,7 +217,7 @@
     "low_price": 335.5,
     "close_price": 342.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:49.356603"
+    "updated_at": "2026-09-02T07:07:30.139259"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -87,7 +227,7 @@
     "low_price": 4315.0,
     "close_price": 4315.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:50.716811"
+    "updated_at": "2026-09-02T07:07:31.152951"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -97,7 +237,7 @@
     "low_price": 141.5,
     "close_price": 145.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:52.526968"
+    "updated_at": "2026-09-02T07:07:32.157698"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -107,7 +247,7 @@
     "low_price": 65.1,
     "close_price": 66.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:53.985368"
+    "updated_at": "2026-09-02T07:07:33.033144"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -117,7 +257,7 @@
     "low_price": 7565.0,
     "close_price": 7580.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:55.469445"
+    "updated_at": "2026-09-02T07:07:34.051255"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -127,7 +267,7 @@
     "low_price": 539.0,
     "close_price": 552.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:56.609600"
+    "updated_at": "2026-09-02T07:07:35.191996"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -137,7 +277,7 @@
     "low_price": 178.0,
     "close_price": 182.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:58.336602"
+    "updated_at": "2026-09-02T07:07:36.234880"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -147,7 +287,7 @@
     "low_price": 582.0,
     "close_price": 610.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:59.667123"
+    "updated_at": "2026-09-02T07:07:37.107596"
   },
   {
     "trade_date": "2026-09-01T00:00:00",
@@ -157,7 +297,7 @@
     "low_price": 7050.0,
     "close_price": 7800.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:50:01.781375"
+    "updated_at": "2026-09-02T07:07:38.121431"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -167,7 +307,7 @@
     "low_price": 124.0,
     "close_price": 129.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:40.510573"
+    "updated_at": "2026-09-02T07:07:21.917762"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -177,7 +317,7 @@
     "low_price": 1775.0,
     "close_price": 1840.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:42.023222"
+    "updated_at": "2026-09-02T07:07:22.788651"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -187,7 +327,7 @@
     "low_price": 246.0,
     "close_price": 250.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:43.568105"
+    "updated_at": "2026-09-02T07:07:24.078541"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -197,7 +337,7 @@
     "low_price": 2375.0,
     "close_price": 2405.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:45.136138"
+    "updated_at": "2026-09-02T07:07:25.258835"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -207,7 +347,7 @@
     "low_price": 63.8,
     "close_price": 66.7,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:46.618967"
+    "updated_at": "2026-09-02T07:07:26.542950"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -217,7 +357,7 @@
     "low_price": 709.0,
     "close_price": 721.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:48.000542"
+    "updated_at": "2026-09-02T07:07:29.126879"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -227,7 +367,7 @@
     "low_price": 326.0,
     "close_price": 338.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:49.356601"
+    "updated_at": "2026-09-02T07:07:30.139257"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -237,7 +377,7 @@
     "low_price": 3820.0,
     "close_price": 3925.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:50.716808"
+    "updated_at": "2026-09-02T07:07:31.152949"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -247,7 +387,7 @@
     "low_price": 142.0,
     "close_price": 144.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:52.526966"
+    "updated_at": "2026-09-02T07:07:32.157696"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -257,7 +397,7 @@
     "low_price": 63.5,
     "close_price": 64.7,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:53.985366"
+    "updated_at": "2026-09-02T07:07:33.033141"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -267,7 +407,7 @@
     "low_price": 7025.0,
     "close_price": 7650.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:55.469443"
+    "updated_at": "2026-09-02T07:07:34.051253"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -277,7 +417,7 @@
     "low_price": 533.0,
     "close_price": 540.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:56.609598"
+    "updated_at": "2026-09-02T07:07:35.191994"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -287,7 +427,7 @@
     "low_price": 174.0,
     "close_price": 178.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:58.336600"
+    "updated_at": "2026-09-02T07:07:36.234878"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -297,7 +437,7 @@
     "low_price": 565.0,
     "close_price": 584.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:59.667122"
+    "updated_at": "2026-09-02T07:07:37.107595"
   },
   {
     "trade_date": "2026-08-31T00:00:00",
@@ -307,7 +447,7 @@
     "low_price": 7035.0,
     "close_price": 7095.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:50:01.781368"
+    "updated_at": "2026-09-02T07:07:38.121424"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -317,7 +457,7 @@
     "low_price": 120.0,
     "close_price": 130.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:40.509151"
+    "updated_at": "2026-09-02T07:07:21.916152"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -327,7 +467,7 @@
     "low_price": 1780.0,
     "close_price": 1830.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:42.021611"
+    "updated_at": "2026-09-02T07:07:22.787032"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -337,7 +477,7 @@
     "low_price": 251.0,
     "close_price": 253.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:43.566662"
+    "updated_at": "2026-09-02T07:07:24.076941"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -347,7 +487,7 @@
     "low_price": 2410.0,
     "close_price": 2420.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:45.134810"
+    "updated_at": "2026-09-02T07:07:25.257268"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -357,7 +497,7 @@
     "low_price": 64.8,
     "close_price": 64.9,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:46.617613"
+    "updated_at": "2026-09-02T07:07:26.541390"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -367,7 +507,7 @@
     "low_price": 721.0,
     "close_price": 722.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:47.998947"
+    "updated_at": "2026-09-02T07:07:29.125280"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -377,7 +517,7 @@
     "low_price": 330.0,
     "close_price": 332.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:49.355239"
+    "updated_at": "2026-09-02T07:07:30.137755"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -387,7 +527,7 @@
     "low_price": 3925.0,
     "close_price": 3985.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:50.715288"
+    "updated_at": "2026-09-02T07:07:31.151341"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -397,7 +537,7 @@
     "low_price": 140.5,
     "close_price": 144.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:52.525569"
+    "updated_at": "2026-09-02T07:07:32.156155"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -407,7 +547,7 @@
     "low_price": 63.7,
     "close_price": 64.4,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:53.985362"
+    "updated_at": "2026-09-02T07:07:33.033135"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -417,7 +557,7 @@
     "low_price": 6865.0,
     "close_price": 7065.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:55.469435"
+    "updated_at": "2026-09-02T07:07:34.051248"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -427,7 +567,7 @@
     "low_price": 539.0,
     "close_price": 545.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:56.608117"
+    "updated_at": "2026-09-02T07:07:35.190368"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -437,7 +577,7 @@
     "low_price": 178.0,
     "close_price": 178.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:58.335109"
+    "updated_at": "2026-09-02T07:07:36.233194"
   },
   {
     "trade_date": "2026-08-28T00:00:00",
@@ -447,7 +587,7 @@
     "low_price": 606.0,
     "close_price": 621.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:59.665697"
+    "updated_at": "2026-09-02T07:07:37.106008"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -457,7 +597,7 @@
     "low_price": 117.0,
     "close_price": 118.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:40.506906"
+    "updated_at": "2026-09-02T07:07:21.913925"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -467,7 +607,7 @@
     "low_price": 1760.0,
     "close_price": 1770.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:42.021609"
+    "updated_at": "2026-09-02T07:07:22.787029"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -477,7 +617,7 @@
     "low_price": 248.5,
     "close_price": 252.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:43.566660"
+    "updated_at": "2026-09-02T07:07:24.076940"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -487,7 +627,7 @@
     "low_price": 2410.0,
     "close_price": 2410.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:45.133314"
+    "updated_at": "2026-09-02T07:07:25.255591"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -497,7 +637,7 @@
     "low_price": 65.5,
     "close_price": 65.6,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:46.616060"
+    "updated_at": "2026-09-02T07:07:26.539791"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -507,7 +647,7 @@
     "low_price": 720.0,
     "close_price": 730.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:47.998945"
+    "updated_at": "2026-09-02T07:07:29.125278"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -517,7 +657,7 @@
     "low_price": 331.0,
     "close_price": 333.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:49.353719"
+    "updated_at": "2026-09-02T07:07:30.136079"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -527,7 +667,7 @@
     "low_price": 3865.0,
     "close_price": 3865.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:50.715286"
+    "updated_at": "2026-09-02T07:07:31.151339"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -537,7 +677,7 @@
     "low_price": 138.0,
     "close_price": 141.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:52.524022"
+    "updated_at": "2026-09-02T07:07:32.154526"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -547,7 +687,7 @@
     "low_price": 63.8,
     "close_price": 63.8,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:53.983897"
+    "updated_at": "2026-09-02T07:07:33.031429"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -557,7 +697,7 @@
     "low_price": 541.0,
     "close_price": 548.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:56.608114"
+    "updated_at": "2026-09-02T07:07:35.190366"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -567,7 +707,7 @@
     "low_price": 179.0,
     "close_price": 179.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:58.335107"
+    "updated_at": "2026-09-02T07:07:36.233191"
   },
   {
     "trade_date": "2026-08-27T00:00:00",
@@ -577,7 +717,7 @@
     "low_price": 593.0,
     "close_price": 605.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:59.665695"
+    "updated_at": "2026-09-02T07:07:37.106006"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -587,7 +727,7 @@
     "low_price": 122.0,
     "close_price": 123.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:40.506903"
+    "updated_at": "2026-09-02T07:07:21.913923"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -597,7 +737,7 @@
     "low_price": 1670.0,
     "close_price": 1750.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:42.021602"
+    "updated_at": "2026-09-02T07:07:22.787023"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -607,7 +747,7 @@
     "low_price": 241.5,
     "close_price": 246.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:43.566652"
+    "updated_at": "2026-09-02T07:07:24.076934"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -617,7 +757,7 @@
     "low_price": 2375.0,
     "close_price": 2415.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:45.133312"
+    "updated_at": "2026-09-02T07:07:25.255589"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -627,7 +767,7 @@
     "low_price": 65.5,
     "close_price": 66.8,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:46.616058"
+    "updated_at": "2026-09-02T07:07:26.539789"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -637,7 +777,7 @@
     "low_price": 722.0,
     "close_price": 734.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:47.998936"
+    "updated_at": "2026-09-02T07:07:29.125272"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -647,7 +787,7 @@
     "low_price": 325.0,
     "close_price": 332.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:49.353717"
+    "updated_at": "2026-09-02T07:07:30.136077"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -657,7 +797,7 @@
     "low_price": 3710.0,
     "close_price": 3945.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:50.715278"
+    "updated_at": "2026-09-02T07:07:31.151333"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -667,7 +807,7 @@
     "low_price": 138.0,
     "close_price": 138.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:52.524020"
+    "updated_at": "2026-09-02T07:07:32.154523"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -677,7 +817,7 @@
     "low_price": 63.9,
     "close_price": 64.6,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:53.983895"
+    "updated_at": "2026-09-02T07:07:33.031427"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -687,7 +827,7 @@
     "low_price": 550.0,
     "close_price": 557.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:56.608107"
+    "updated_at": "2026-09-02T07:07:35.190360"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -697,7 +837,7 @@
     "low_price": 176.0,
     "close_price": 182.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:58.335100"
+    "updated_at": "2026-09-02T07:07:36.233185"
   },
   {
     "trade_date": "2026-08-26T00:00:00",
@@ -707,7 +847,7 @@
     "low_price": 575.0,
     "close_price": 592.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:59.665688"
+    "updated_at": "2026-09-02T07:07:37.106001"
   },
   {
     "trade_date": "2026-08-25T00:00:00",
@@ -717,7 +857,7 @@
     "low_price": 119.0,
     "close_price": 125.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:40.506895"
+    "updated_at": "2026-09-02T07:07:21.913916"
   },
   {
     "trade_date": "2026-08-25T00:00:00",
@@ -737,7 +877,7 @@
     "low_price": 2350.0,
     "close_price": 2400.0,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:45.133304"
+    "updated_at": "2026-09-02T07:07:25.255583"
   },
   {
     "trade_date": "2026-08-25T00:00:00",
@@ -747,7 +887,7 @@
     "low_price": 64.0,
     "close_price": 65.4,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:46.616050"
+    "updated_at": "2026-09-02T07:07:26.539783"
   },
   {
     "trade_date": "2026-08-25T00:00:00",
@@ -757,7 +897,7 @@
     "low_price": 319.5,
     "close_price": 328.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:49.353709"
+    "updated_at": "2026-09-02T07:07:30.136070"
   },
   {
     "trade_date": "2026-08-25T00:00:00",
@@ -767,7 +907,7 @@
     "low_price": 132.5,
     "close_price": 141.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:52.524012"
+    "updated_at": "2026-09-02T07:07:32.154516"
   },
   {
     "trade_date": "2026-08-25T00:00:00",
@@ -777,7 +917,7 @@
     "low_price": 63.1,
     "close_price": 64.5,
     "source": "TWSE",
-    "updated_at": "2026-09-02T05:49:53.983888"
+    "updated_at": "2026-09-02T07:07:33.031421"
   },
   {
     "trade_date": "2026-08-24T00:00:00",
