@@ -1,5 +1,16 @@
 [
   {
+    "run_id": "20261006_073201_scheduled_1e1475",
+    "trigger_type": "scheduled",
+    "status": "success",
+    "started_at": "2026-10-06T07:32:01.292581",
+    "finished_at": "2026-10-06T07:34:10.082071",
+    "us_data_date": "2026-10-05T00:00:00",
+    "target_tw_date": "2026-10-06T00:00:00",
+    "message": "完成 14 檔推薦、26 筆觸發訊號",
+    "recommendation_count": 14
+  },
+  {
     "run_id": "20261006_065211_scheduled_bb9ba1",
     "trigger_type": "scheduled",
     "status": "success",
@@ -2737,16 +2748,5 @@
     "target_tw_date": "2026-09-04T00:00:00",
     "message": "完成 10 檔推薦、21 筆觸發訊號",
     "recommendation_count": 10
-  },
-  {
-    "run_id": "20260904_012141_scheduled_b6516c",
-    "trigger_type": "scheduled",
-    "status": "success",
-    "started_at": "2026-09-04T01:21:41.608623",
-    "finished_at": "2026-09-04T01:23:26.694121",
-    "us_data_date": "2026-09-02T00:00:00",
-    "target_tw_date": "2026-09-03T00:00:00",
-    "message": "完成 5 檔推薦、7 筆觸發訊號",
-    "recommendation_count": 5
   }
 ]
